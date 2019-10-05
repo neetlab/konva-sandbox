@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "dev": "parcel serve ./src/index.html",
+    "watch": "parcel watch ./src/index.html"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "konva": "^4.0.13",
+    "parcel": "^1.12.3",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-konva": "^16.10.1-0",
+    "typescript": "^3.6.3"
+  }
+}
