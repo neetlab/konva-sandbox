@@ -42,7 +42,7 @@ export const Root = () => {
 
   return (
     <Stage width={window.innerWidth} height={window.innerHeight}>
-      <Layer>
+      <Layer imageSmoothingEnabled={true}>
         <Rect
           x={baseX}
           y={baseY}
@@ -68,7 +68,13 @@ export const Root = () => {
           }}
         >
           <Rect x={baseX} y={baseY} fill="#ffffff" width={45} height={45} />
-          <Image image={image} x={baseX} y={baseY} width={45} height={45} />
+          <Image
+            image={image}
+            x={baseX}
+            y={baseY}
+            width={45}
+            height={45}
+          />
         </Group>
       </Layer>
     </Stage>
