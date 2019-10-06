@@ -12,6 +12,10 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-konva": "^16.10.1-0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.3",
+    "use-image": "^1.0.5"
+  },
+  "devDependencies": {
+    "sass": "^1.23.0"
   }
 }
